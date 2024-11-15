@@ -1,0 +1,10 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/signup", "dest": "/" },
+    { "src": "/signin", "dest": "/" },
+    { "src": "/addmess", "dest": "/" },
+    { "src": "/displaymess", "dest": "/" },
+    { "src": "/displaymess/(.*)", "dest": "/" }
+  ]
+}

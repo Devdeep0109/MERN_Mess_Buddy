@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO_URL)
 
 //configurations.........
 app.use(cookieParser());
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.use(cors({ origin: ['http://localhost:5173',"https://mern-mess-buddy.vercel.app"], credentials: true }));
 
 
 //middleware.....
